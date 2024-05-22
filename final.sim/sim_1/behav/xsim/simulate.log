@@ -1,0 +1,73 @@
+Time resolution is 1 ps
+memory: test
+regs_inst.mem[0]: 00000000
+regs_inst.mem[1]: 8e07c20f
+regs_inst.mem[2]: 9e07c20f
+regs_inst.mem[3]: c1ffffff
+regs_inst.mem[4]: ffffffff
+regs_inst.mem[5]: ffffffff
+regs_inst.mem[6]: ffffffff
+pc_adder_enable: x ,
+ add_out1: xxxxxxxxxx data_out1: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+a: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx b: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx alu_op: xxx result: 00000000000000000000000000000000 zero: 1 overflow: 0 carry: 0 sign: 0
+pc_adder_enable: 0 ,
+ add_out1: xxxxxxxxxx data_out1: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+pc: 0000000000
+===============================
+instr: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+opcode: xxxxxxxx imm1: xxxxxxxxxx imm2: xxxxxxxxxx imm_flag: xxx
+find num imm1: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx imm2: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+num1: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx num2: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+a: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx b: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx alu_op: xxx result: 00000000000000000000000000000000 zero: 1 overflow: 0 carry: 0 sign: 0
+pc_adder_enable: 1 ,
+ add_out1: xxxxxxxxxx data_out1: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+a: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx b: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx alu_op: xxx result: 00000000000000000000000000000000 zero: 1 overflow: 0 carry: 0 sign: 0
+pc_adder_enable: 0 ,
+ add_out1: xxxxxxxxxx data_out1: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+pc: 0000000100
+===============================
+instr: 10001110000001111100001000001111
+opcode: 10001110 imm1: 0000011111 imm2: 0000100000 imm_flag: 111
+find num imm1: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx imm2: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+num1: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx num2: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+a: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx b: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx alu_op: xxx result: 00000000000000000000000000000000 zero: 1 overflow: 0 carry: 0 sign: 0
+pc_adder_enable: 1 ,
+ add_out1: 0000011111 data_out1: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+a: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx b: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx alu_op: xxx result: 00000000000000000000000000000000 zero: 1 overflow: 0 carry: 0 sign: 0
+pc_adder_enable: 0 ,
+ add_out1: 0000011111 data_out1: 00000000000000000000000000000111
+pc: 0000001000
+===============================
+instr: 10011110000001111100001000001111
+opcode: 10011110 imm1: 0000011111 imm2: 0000100000 imm_flag: 111
+find num imm1: 00000000000000000000000000000111 imm2: 00000000000000000000000000000001
+num1: 00000000000000000000000000000111 num2: 00000000000000000000000000000001
+a: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx b: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx alu_op: xxx result: 00000000000000000000000000000000 zero: 1 overflow: 0 carry: 0 sign: 0
+pc_adder_enable: 1 ,
+ add_out1: 0000011111 data_out1: 00000000000000000000000000000111
+a: 00000000000000000000000000000111 b: 00000000000000000000000000000001 alu_op: 000 result: 00000000000000000000000000001000 zero: 0 overflow: 0 carry: 0 sign: 0
+pc_adder_enable: 0 ,
+ add_out1: 0000011111 data_out1: 00000000000000000000000000000111
+pc: 0000001100
+===============================
+instr: 11000001111111111111111111111111
+opcode: 11000001 imm1: 1111111111 imm2: 1111111111 imm_flag: 111
+find num imm1: 00000000000000000000000000000111 imm2: 00000000000000000000000000000001
+num1: 00000000000000000000000000000111 num2: 00000000000000000000000000000001
+a: 00000000000000000000000000000111 b: 00000000000000000000000000000001 alu_op: 000 result: 00000000000000000000000000001000 zero: 0 overflow: 0 carry: 0 sign: 0
+pc_adder_enable: 1 ,
+ add_out1: 1111111111 data_out1: 00000000000000000000000000000111
+a: 00000000000000000000000000000111 b: 00000000000000000000000000000001 alu_op: 001 result: 00000000000000000000000000000110 zero: 0 overflow: 0 carry: 0 sign: 0
+pc_adder_enable: 0 ,
+ add_out1: 1111111111 data_out1: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+pc: 0000010000
+===============================
+instr: 11111111111111111111111111111111
+opcode: 11111111 imm1: 1111111111 imm2: 1111111111 imm_flag: 111
+find num imm1: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx imm2: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+num1: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx num2: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+a: 00000000000000000000000000000111 b: 00000000000000000000000000000001 alu_op: 001 result: 00000000000000000000000000000110 zero: 0 overflow: 0 carry: 0 sign: 0
+pc_adder_enable: 1 ,
+ add_out1: 1111111111 data_out1: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+a: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx b: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx alu_op: 100 result: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx zero: x overflow: 0 carry: 0 sign: x
+pc_adder_enable: 0 ,

@@ -1,0 +1,14 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/Xilinx/project/final/final/final.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+D:/Xilinx/project/final/final/final.srcs/sim_1/new/alu_test.v,1716017135,verilog,,,,alu_test,,,,,,,,
+D:/Xilinx/project/final/final/final.srcs/sim_1/new/regs_test.v,1714207985,verilog,,,,regs_tb,,,,,,,,
+D:/Xilinx/project/final/final/final.srcs/sim_1/new/test_all.v,1716308192,verilog,,,,cpu_top_tb,,,,,,,,
+D:/Xilinx/project/final/final/final.srcs/sim_1/new/testpc.v,1716023731,verilog,,,,tb_cpu_pc,,,,,,,,
+D:/Xilinx/project/final/final/final.srcs/sources_1/new/alu.v,1716315205,verilog,,D:/Xilinx/project/final/final/final.srcs/sources_1/new/cpu_top.v,,alu,,,,,,,,
+D:/Xilinx/project/final/final/final.srcs/sources_1/new/cpu_top.v,1716319843,verilog,,D:/Xilinx/project/final/final/final.srcs/sources_1/new/ctrl.v,,cpu_top,,,,,,,,
+D:/Xilinx/project/final/final/final.srcs/sources_1/new/ctrl.v,1716319991,verilog,,D:/Xilinx/project/final/final/final.srcs/sources_1/new/pc.v,,Decode;find_num;read;write_back,,,,,,,,
+D:/Xilinx/project/final/final/final.srcs/sources_1/new/pc.v,1716312081,verilog,,D:/Xilinx/project/final/final/final.srcs/sources_1/new/regs.v,,pc,,,,,,,,
+D:/Xilinx/project/final/final/final.srcs/sources_1/new/regs.v,1716317131,verilog,,D:/Xilinx/project/final/final/final.srcs/sim_1/new/test_all.v,,regs,,,,,,,,
